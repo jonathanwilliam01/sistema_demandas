@@ -12,14 +12,15 @@
 
         <div class="menu-lateral">
             <h2>Sistema de demandas</h2>
+            <footer> V1.01 </footer>
         </div>
 
         <div class="container-demandas">
             <div class="pesquisa">
                 <div class="itens-pesquisa">
                     <form method="post">
-                        <input type="text" name="ref-demandas" placeholder="N° Demanda">
-                        <button type="submit" name="pesquisar"> Pesquisar </button>
+                        <input type="text" name="ref-demandas" placeholder="N° Demanda" style="padding: 5px 5px;">
+                        <button type="submit" name="pesquisar" style="padding: 5px 5px;"> Pesquisar </button>
                     </form>
                 </div>
             </div>
