@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  body {
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .container{
+    display: contents;
+    width: 100%;
+  }
+
+  .menu-lateral{
+    width: 15%;
+    background-color: #303030;
+    margin-left: 0.5%;
+  }
+
+  .container-demandas{
+    width: 82%;
+    background-color: #303030;
+    margin-left: 2%;
+  }
+
+    .pesquisa{
+        width: 100%;
+        height: 10%;
+    }
+
+    .itens-pesquisa{
+        display: flex;
+        justify-content: right;
+    }
+
+    .lista-demandas{
+        width: 100%;
+    }

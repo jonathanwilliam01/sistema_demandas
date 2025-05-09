@@ -1,0 +1,9 @@
+create table usuarios (
+    id int primary-key auto increment,
+    nome varchar
+    email varchar
+    senha varchar
+    data_cadastro timestamp
+)
+
+email unique
