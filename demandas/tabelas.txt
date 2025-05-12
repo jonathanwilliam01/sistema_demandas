@@ -1,0 +1,15 @@
+CREATE TABLE demandas.demandas (
+    id INT(10) NOT NULL AUTO_INCREMENT , 
+    titulo VARCHAR(250) NOT NULL , 
+    data_abertura DATE NOT NULL DEFAULT CURRENT_TIMESTAMP , 
+    data_fechamento DATE NOT NULL , 
+    estagio INT(2) NOT NULL , 
+    solicitante INT(10) NOT NULL , 
+    atendente INT(10) NOT NULL , 
+    PRIMARY KEY (id)) ENGINE = InnoDB;
+
+    create table estagios (
+        id int(10) NOT NULL AUTO_INCREMENT,
+        estagio varchar(250),
+        PRIMARY KEY (id)
+    )
