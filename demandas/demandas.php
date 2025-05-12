@@ -2,8 +2,8 @@
 
 require_once __DIR__ . '/../conexao.php';
 
-$sql_demandas = "
-  SELECT
+$sql_demandas =
+"SELECT
   d.id,
   d.titulo,
   e.estagio,
@@ -42,7 +42,7 @@ $sql_demandas = "
             <div class="pesquisa">
                 <div class="itens-pesquisa">
                     <form method="post">
-                        <input type="text" name="ref-demandas" placeholder="N° Demanda" style="padding: 5px 5px; background-color: #1e1e1e; border: 1px solid white; border-radius:5px">
+                        <input type="text" name="ref-demandas" placeholder="N° Demanda" style="padding: 5px 5px; background-color: #1e1e1e; border: 1px solid white; border-radius:5px; color:white">
                         <button type="submit" name="pesquisar" style="padding: 5px 5px; background-color:rgb(4, 137, 189); border: 1px solid white; border-radius:5px; color:#1e1e1e"> Pesquisar </button>
                     </form>
                 </div>
