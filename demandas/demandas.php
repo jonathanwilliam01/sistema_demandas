@@ -30,11 +30,14 @@ $sql_demandas =
     <div class="container">
 
         <div class="menu-lateral">
-            <h2>Sistema de demandas</h2>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <div class="menu">
+                <h2 style="margin-top: 7%">Demandas</h2>
+                    <button style="width: 80%; margin-top: 15%;">Nova Demanda </button>
+                    <ul style="list-style-type: none; margin-top: 5%">
+                     <li>Demandas encerradas</li>
+                     <li>Relatorios</li>
+                    </ul>
+            </div>
             <footer> V1.01 </footer>
         </div>
 
@@ -43,7 +46,7 @@ $sql_demandas =
                 <div class="itens-pesquisa">
                     <form method="post">
                         <input type="text" name="ref-demandas" placeholder="N° Demanda" style="padding: 5px 5px; background-color: #1e1e1e; border: 1px solid white; border-radius:5px; color:white">
-                        <button type="submit" name="pesquisar" style="padding: 5px 5px; background-color:rgb(4, 137, 189); border: 1px solid white; border-radius:5px; color:#1e1e1e"> Pesquisar </button>
+                        <button type="submit" name="pesquisar"> Pesquisar </button>
                     </form>
                 </div>
             </div>

@@ -50,7 +50,7 @@ session_start();
                       'nome' => $usuario['nome'],
                       'nivel' => $usuario['nivel']
                   ];
-                  header("Location: ../index.php");
+                  header("Location: ../demandas/demandas.php");
                   
                   exit;
               } else {
